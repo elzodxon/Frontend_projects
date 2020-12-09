@@ -32,10 +32,23 @@
   padding: 50px;
 }
 
+.wrapper img:hover {
+  color: #7C8087;
+}
+
 .wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 550px){
+  .wrapper img{
+    margin: 0 auto;
+    width: 100%;
+  }
 }
 
 </style>

@@ -164,4 +164,42 @@ router-link {
   /*left: 25%;*/
   margin-bottom: 15px;
 }
+
+/* Media */
+
+@media only screen and (max-width: 940px) {
+  .container{
+   background: none;
+    padding: 20px;
+    height: 55vh;
+  }
+}
+
+
+@media only screen and  (max-width: 700px){
+  .container{
+    height: 50vh;
+  }
+  .trial-btn{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 515px) {
+  .container{
+    height: 45vh;
+  }
+  h1{
+    font-size: 44px !important;
+    line-height: 48px !important;
+    margin-bottom: 20px !important;
+  }
+  h4{
+    font-size: 18px !important;
+    line-height: 20px !important;
+    margin-bottom: 20px !important;
+    width: 75% !important;
+  }
+
+}
 </style>

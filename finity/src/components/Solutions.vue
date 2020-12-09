@@ -4,20 +4,26 @@
       <h1>Solution made for you</h1>
       <p>These companies release their own versions of the operating <br> systems with minor changes, and yet always.</p>
     </div>
-
+    <SliderC/>
 
   </div>
 </template>
 
 <script>
+
+import SliderC from "@/components/SliderC"
+
 export default {
   components: {
-
+    SliderC
   }
 }
 </script>
 
 <style scoped>
+.container-wrapper{
+  margin-bottom: 50px;
+}
 
 .container h1 {
   font-size: 48px;
