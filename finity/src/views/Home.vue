@@ -6,6 +6,7 @@
     <Content/>
     <Inbox/>
     <Testimonials/>
+    <Footer/>
   </div>
 </template>
 
@@ -17,7 +18,7 @@ import Solutions from "@/components/Solutions"
 import Content from '@/components/Content'
 import Inbox from '@/components/Inbox'
 import Testimonials from '@/components/Testimonials'
-
+import Footer from '@/components/Footer'
 export default {
   name: 'Home',
   components: {
@@ -26,7 +27,8 @@ export default {
     Solutions,
     Content,
     Inbox,
-    Testimonials
+    Testimonials,
+    Footer
   }
 }
 </script>
