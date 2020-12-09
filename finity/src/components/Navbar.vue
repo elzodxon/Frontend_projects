@@ -55,26 +55,31 @@ export default {
   height: 100vh;
   padding: 30px 38px;
 }
-.decoration{
+
+.decoration {
   text-decoration: none;
   color: black;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
 }
+
 .flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-router-link{
+
+router-link {
   text-decoration: none;
 }
-.nav-list__right li{
+
+.nav-list__right li {
   margin-right: 44px;
 }
+
 /* Trial button */
-.trial-btn{
+.trial-btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,7 +88,8 @@ router-link{
   height: 45px;
   width: 170px;
 }
-.trial-btn .decoration{
+
+.trial-btn .decoration {
   color: white !important;
   font-size: 13px;
   font-style: normal;
@@ -93,41 +99,45 @@ router-link{
 }
 
 /* Main section */
-.main{
+.main {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 125px;
 }
 
-.main-wrapper{
+.main-wrapper {
   width: 500px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.main h1{
+
+.main h1 {
   font-size: 58px;
   font-style: normal;
   font-weight: 700;
   line-height: 64px;
   letter-spacing: -1px;
   text-align: center;
-  color: #1D293F ;
+  color: #1D293F;
   margin-bottom: 40px;
 }
 
-.main h4{
+.main h4 {
   font-size: 21px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0px;
   text-align: center;
-  color:  #7C8087;
+  color: #7C8087;
   margin-bottom: 40px;
 
 }
 
-.main p{
+.main p {
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
@@ -137,7 +147,7 @@ router-link{
   color: #8C97AC;
 }
 
-.main-btn{
+.main-btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -150,8 +160,8 @@ router-link{
   width: 217px;
   color: white;
   text-decoration: none;
-  position: relative;
-  left: 25%;
+  /*position: relative;*/
+  /*left: 25%;*/
   margin-bottom: 15px;
 }
 </style>
