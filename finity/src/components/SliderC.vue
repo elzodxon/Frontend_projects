@@ -1,56 +1,58 @@
 <template>
-  <VueSlickCarousel v-bind="settings">
-    <div class="swiper-wrapper">
-      <img src="../assets/imgs/oval3.png" alt="">
-      <div class="infor">
-        <h2>Team Collaboration</h2>
-        <h4>We’ve helped over 2,500 job seekers to get into the most popular tech teams.</h4>
+  <div class="slick_slide">
+    <VueSlickCarousel v-bind="settings">
+      <div class="swiper-wrapper">
+        <img src="../assets/imgs/oval3.png" alt="">
+        <div class="infor">
+          <h2>Team Collaboration</h2>
+          <h4>We’ve helped over 2,500 job seekers to get into the most popular tech teams.</h4>
+        </div>
       </div>
-    </div>
-    <div class="swiper-wrapper">
-      <img src="../assets/imgs/oval3.png" alt="">
-      <div class="infor">
-        <h2>Team Collaboration</h2>
-        <h4>We’ve helped over 2,500 job seekers to get into the most popular tech teams.</h4>
+      <div class="swiper-wrapper">
+        <img src="../assets/imgs/oval3.png" alt="">
+        <div class="infor">
+          <h2>Team Collaboration</h2>
+          <h4>We’ve helped over 2,500 job seekers to get into the most popular tech teams.</h4>
+        </div>
       </div>
-    </div>
-    <div class="swiper-wrapper">
-      <img src="../assets/imgs/oval3.png" alt="">
-      <div class="infor">
-        <h2>Team Collaboration</h2>
-        <h4>We’ve helped over 2,500 job seekers to get into the most popular tech teams.</h4>
+      <div class="swiper-wrapper">
+        <img src="../assets/imgs/oval3.png" alt="">
+        <div class="infor">
+          <h2>Team Collaboration</h2>
+          <h4>We’ve helped over 2,500 job seekers to get into the most popular tech teams.</h4>
+        </div>
       </div>
-    </div>
-    <div class="swiper-wrapper">
-      <img src="../assets/imgs/oval3.png" alt="">
-      <div class="infor">
-        <h2>Team Collaboration</h2>
-        <h4>We’ve helped over 2,500 job seekers to get into the most popular tech teams.</h4>
+      <div class="swiper-wrapper">
+        <img src="../assets/imgs/oval3.png" alt="">
+        <div class="infor">
+          <h2>Team Collaboration</h2>
+          <h4>We’ve helped over 2,500 job seekers to get into the most popular tech teams.</h4>
+        </div>
       </div>
-    </div>
-    <div class="swiper-wrapper">
-      <img src="../assets/imgs/oval3.png" alt="">
-      <div class="infor">
-        <h2>Team Collaboration</h2>
-        <h4>We’ve helped over 2,500 job seekers to get into the most popular tech teams.</h4>
+      <div class="swiper-wrapper">
+        <img src="../assets/imgs/oval3.png" alt="">
+        <div class="infor">
+          <h2>Team Collaboration</h2>
+          <h4>We’ve helped over 2,500 job seekers to get into the most popular tech teams.</h4>
+        </div>
       </div>
-    </div>
-    <div class="swiper-wrapper">
-      <img src="../assets/imgs/oval3.png" alt="">
-      <div class="infor">
-        <h2>Team Collaboration</h2>
-        <h4>We’ve helped over 2,500 job seekers to get into the most popular tech teams.</h4>
+      <div class="swiper-wrapper">
+        <img src="../assets/imgs/oval3.png" alt="">
+        <div class="infor">
+          <h2>Team Collaboration</h2>
+          <h4>We’ve helped over 2,500 job seekers to get into the most popular tech teams.</h4>
+        </div>
       </div>
-    </div>
-    <div class="swiper-wrapper">
-      <img src="../assets/imgs/oval3.png" alt="">
-      <div class="infor">
-        <h2>Team Collaboration</h2>
-        <h4>We’ve helped over 2,500 job seekers to get into the most popular tech teams.</h4>
+      <div class="swiper-wrapper">
+        <img src="../assets/imgs/oval3.png" alt="">
+        <div class="infor">
+          <h2>Team Collaboration</h2>
+          <h4>We’ve helped over 2,500 job seekers to get into the most popular tech teams.</h4>
+        </div>
       </div>
-    </div>
 
-  </VueSlickCarousel>
+    </VueSlickCarousel>
+  </div>
 </template>
 
 <script>
@@ -66,20 +68,26 @@ export default {
   data() {
     return {
       settings: {
+
         "infinite": true,
         "initialSlide": 3,
         "speed": 500,
         "centerMode": true,
-        "centerPadding": "30px",
+        "centerPadding": "20px",
         "focusOnSelect": true,
         "slidesToShow": 5,
+        "variableWidth": true
       },
     }
   },
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+
+  .slick_slide{
+    overflow: hidden;
+  }
   .swiper-wrapper{
     display: flex !important;
     align-items: flex-start;
@@ -87,6 +95,10 @@ export default {
     height: 158px !important;
     width: 350px !important;
     padding: 20px;
+    margin-right: 70px;
+    .slick-current {
+      position: relative;
+    }
   }
 
   .swiper-wrapper h2{
@@ -104,4 +116,7 @@ export default {
     line-height: 28px;
     letter-spacing: 0px;
   }
+
+
+
 </style>

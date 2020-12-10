@@ -246,4 +246,8 @@ text-align: left; color: #7C8087;
   width: 515px;
   text-align: center;
 }
+
+.row-testimonial img{
+  margin-right: 15px;
+}
 </style>

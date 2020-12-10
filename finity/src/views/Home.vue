@@ -2,11 +2,12 @@
   <div class="home">
     <Navbar/>
     <Companies/>
-<!--    <Solutions/>-->
-<!--    <Content/>-->
-<!--    <Inbox/>-->
-<!--    <Testimonials/>-->
-<!--    <Footer/>-->
+    <Solutions/>
+    <Content/>
+    <Inbox/>
+    <Testimonials/>
+    <Price/>
+    <Footer/>
   </div>
 </template>
 
@@ -14,23 +15,23 @@
 // @ is an alias to /src
 import Navbar from "@/components/Navbar";
 import Companies from "@/components/Companies"
-// // import Solutions from "@/components/Solutions"
-// /*
-// import Content from '@/components/Content'
-// */
-// import Inbox from '@/components/Inbox'
-// import Testimonials from '@/components/Testimonials'
-// import Footer from '@/components/Footer'
+ import Solutions from "@/components/Solutions"
+import Content from '@/components/Content'
+import Inbox from '@/components/Inbox'
+import Testimonials from '@/components/Testimonials'
+import Price from "@/components/Price";
+import Footer from '@/components/Footer'
 export default {
   name: 'Home',
   components: {
     Navbar,
     Companies,
-    // Solutions,
-    // // Content,
-    // Inbox,
-    // Testimonials,
-    // Footer
+    Solutions,
+    Content,
+    Inbox,
+    Testimonials,
+    Price,
+    Footer
   }
 }
 </script>

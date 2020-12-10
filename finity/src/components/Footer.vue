@@ -55,6 +55,17 @@
           </ul>
         </li>
       </ul>
+      <div class="copyright">
+        <hr>
+        <div class="row">
+          <h2>&#169;Finity 2019, All Rights Reserved</h2>
+          <div class="social-accounts">
+            <font-awesome-icon class="font-awesome-icon" :icon="{ prefix: 'fab', iconName: 'facebook' }"/>
+            <font-awesome-icon class="font-awesome-icon" :icon="{ prefix: 'fab', iconName: 'google' }"/>
+            <font-awesome-icon class="font-awesome-icon" :icon="{ prefix: 'fab', iconName: 'twitter' }"/>
+          </div>
+        </div>
+      </div>
     </div>
   </footer>
 </template>
@@ -88,7 +99,7 @@ a {
   color: white;
 }
 
-h2{
+h2 {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -99,6 +110,7 @@ h2{
   margin-bottom: 35px;
   margin-top: 25px;
 }
+
 .ask-btn {
   font-size: 13px;
   font-weight: 500;
@@ -111,14 +123,15 @@ h2{
   background: #0F53FA;
 }
 
-.footer-list{
+.footer-list {
   width: 100px;
 }
 
-.footer-list:last-child{
+.footer-list:last-child {
   width: 300px !important;
 }
-.footer-list li:not(first-child){
+
+.footer-list li:not(first-child) {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -129,7 +142,7 @@ h2{
   margin-left: 50px;
 }
 
-.footer-top{
+.footer-top {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -138,7 +151,31 @@ h2{
   color: #8C97AC;
 }
 
-.brown{
+.brown {
   color: #FFD166;
+}
+
+.copyright {
+  margin-top: 150px;
+
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+hr{
+  border: 1px solid #313D55;
+}
+.social-accounts {
+  display: flex;
+  align-items: center;
+}
+
+.font-awesome-icon {
+  color: white;
+  margin-right: 20px;
 }
 </style>
