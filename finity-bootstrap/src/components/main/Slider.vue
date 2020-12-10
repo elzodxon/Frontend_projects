@@ -1,51 +1,59 @@
 <template>
-  <div class="slick_slide">
-    <VueSlickCarousel v-bind="settings">
-      <div class="swiper-wrapper">
-        <img src="/assets/imgs/oval3.png" alt="" class="mr-2">
-        <div class="infor">
-          <h2>Find Leads</h2>
-          <h4>We’ve helped over 2,500 job seekers to get into the most popular tech teams.</h4>
-        </div>
+  <div>
+    <div class="container p-5">
+      <div class="row d-flex align-items-center flex-column">
+        <h2>Solution made for you</h2>
+        <h3 class="text-center">These companies release their own versions of the operating <br> systems with minor changes, and yet always.</h3>
       </div>
-      <div class="swiper-wrapper">
-        <img src="/assets/imgs/oval3.png" alt="" class="mr-2">
-        <div class="infor">
-          <h2>Team Collaboration</h2>
-          <h4>We’ve helped over 2,500 job seekers to get into the most popular tech teams.</h4>
+    </div>
+    <div class="slick_slide">
+      <VueSlickCarousel v-bind="settings">
+        <div class="swiper-wrapper">
+          <img src="/assets/imgs/oval3.png" alt="" class="mr-2">
+          <div class="infor">
+            <h2>Find Leads</h2>
+            <h4>We’ve helped over 2,500 job seekers to get into the most popular tech teams.</h4>
+          </div>
         </div>
-      </div>
-      <div class="swiper-wrapper">
-        <img src="/assets/imgs/oval3.png" alt="" class="mr-2">
-        <div class="infor">
-          <h2>Instant Chat</h2>
-          <h4>We’ve helped over 2,500 job seekers to get into the most popular tech teams.</h4>
+        <div class="swiper-wrapper">
+          <img src="/assets/imgs/oval3.png" alt="" class="mr-2">
+          <div class="infor">
+            <h2>Team Collaboration</h2>
+            <h4>We’ve helped over 2,500 job seekers to get into the most popular tech teams.</h4>
+          </div>
         </div>
-      </div>
-      <div class="swiper-wrapper">
-        <img src="/assets/imgs/oval3.png" alt="" class="mr-2">
-        <div class="infor">
-          <h2>Media manager</h2>
-          <h4>We’ve helped over 2,500 job seekers to get into the most popular tech teams.</h4>
+        <div class="swiper-wrapper">
+          <img src="/assets/imgs/oval3.png" alt="" class="mr-2">
+          <div class="infor">
+            <h2>Instant Chat</h2>
+            <h4>We’ve helped over 2,500 job seekers to get into the most popular tech teams.</h4>
+          </div>
         </div>
-      </div>
-      <div class="swiper-wrapper">
-        <img src="/assets/imgs/oval3.png" alt="" class="mr-2">
-        <div class="infor">
-          <h2>Dedicated Storage</h2>
-          <h4>We’ve helped over 2,500 job seekers to get into the most popular tech teams.</h4>
+        <div class="swiper-wrapper">
+          <img src="/assets/imgs/oval3.png" alt="" class="mr-2">
+          <div class="infor">
+            <h2>Media manager</h2>
+            <h4>We’ve helped over 2,500 job seekers to get into the most popular tech teams.</h4>
+          </div>
         </div>
-      </div>
-      <div class="swiper-wrapper">
-        <img src="assets/imgs/oval3.png" alt="" class="mr-2">
-        <div class="infor">
-          <h2>Team Collaboration</h2>
-          <h4>We’ve helped over 2,500 job seekers to get into the most popular tech teams.</h4>
+        <div class="swiper-wrapper">
+          <img src="/assets/imgs/oval3.png" alt="" class="mr-2">
+          <div class="infor">
+            <h2>Dedicated Storage</h2>
+            <h4>We’ve helped over 2,500 job seekers to get into the most popular tech teams.</h4>
+          </div>
         </div>
-      </div>
+        <div class="swiper-wrapper">
+          <img src="assets/imgs/oval3.png" alt="" class="mr-2">
+          <div class="infor">
+            <h2>Team Collaboration</h2>
+            <h4>We’ve helped over 2,500 job seekers to get into the most popular tech teams.</h4>
+          </div>
+        </div>
 
 
-    </VueSlickCarousel>
+      </VueSlickCarousel>
+    </div>
   </div>
 </template>
 
@@ -133,6 +141,30 @@ export default {
 
 <style lang="scss" scoped>
 
+/* Top styles */
+
+.row{
+  h2{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -0.8275861740112305px;
+    color: #1D293F;
+  }
+
+  h3{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: #7C8087;
+
+  }
+}
+
+/* Slick Slider */
 .slick_slide{
   overflow: hidden;
 }
@@ -140,7 +172,6 @@ export default {
   display: flex !important;
   align-items: flex-start;
   background: #ECEFF4;
-  height: 158px !important;
   width: 350px !important;
   padding: 20px;
   margin-right: 70px;
@@ -172,5 +203,12 @@ export default {
   outline: none;
 }
 
+
+@media only screen and (max-width: 550px) {
+  .swiper-wrapper{
+    margin-right: 95px;
+    margin-left: 50px;
+  }
+}
 
 </style>
