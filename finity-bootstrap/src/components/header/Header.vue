@@ -161,6 +161,7 @@ a{
 
 @media only screen and (max-width: 550px) {
   .main-wrapper{
+    width: 100%;
     h1{
       font-size: 40px !important;
       line-height: 45px !important;
