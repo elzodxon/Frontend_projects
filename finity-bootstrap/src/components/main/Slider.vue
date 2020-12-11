@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container p-2">
+    <div class="container">
       <div class="row d-flex align-items-center flex-column">
         <h2>Solution made for you</h2>
         <h3 class="text-center">These companies release their own versions of the operating <br> systems with minor changes, and yet always.</h3>
@@ -58,7 +58,7 @@
     </div>
     <div class="container d-flex justify-content-center p-3">
       <div class="row">
-        <div class="d-flex  justify-content-center mybtn col-12 ">
+        <div class="d-flex  justify-content-center mybtn col-12 col-md-12 col-sm-12 ">
           <a href="" >
             <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" clip-rule="evenodd" d="M9.5 0C4.25125 0 0 4.25125 0 9.5C0 14.7488 4.25125 19 9.5 19C14.7488 19 19 14.7488 19 9.5C19 4.25125 14.7488 0 9.5 0ZM7.6 13.775L13.3 9.5L7.6 5.225V13.775ZM1.9 9.5C1.9 13.6895 5.3105 17.1 9.5 17.1C13.6895 17.1 17.1 13.6895 17.1 9.5C17.1 5.3105 13.6895 1.9 9.5 1.9C5.3105 1.9 1.9 5.3105 1.9 9.5Z" fill="white"/>
@@ -84,7 +84,7 @@ export default {
   data() {
     return {
       settings: {
-
+        "arrows":false,
         "infinite": true,
         "initialSlide": 3,
         "autoplay": true,
@@ -250,6 +250,9 @@ export default {
 @media screen and (max-width: 768px ){
   .row h2{
     font-size: 37px;
+  }
+  .slick_slide  p{
+    padding: 0;
   }
 }
 
