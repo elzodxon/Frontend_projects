@@ -33,6 +33,7 @@
     </header>
     <main class="main">
       <div class="main-wrapper">
+        <img style="display: none" class="img-fluid" src="/assets/App.png" alt="">
         <h1>More than your regular email inbox</h1>
         <h4>We’ve helped over 25,000 individuals and companies to grow their business successfully.</h4>
         <router-link class="main-btn" to="/register">Start 14 days free trial</router-link>
@@ -49,7 +50,7 @@
 
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 
 .header{
   background-position: bottom  center;
@@ -145,6 +146,17 @@ a{
   /*position: relative;*/
   /*left: 25%;*/
   margin-bottom: 15px;
+}
+
+
+/* Media queries */
+
+@media only screen and (max-width: 950px){
+  .header{
+    background-image: none;
+    background: #F7F8FA;
+    height: 70vh;
+  }
 }
 
 </style>

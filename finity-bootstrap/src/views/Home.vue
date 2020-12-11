@@ -1,11 +1,12 @@
 <template>
   <div class="home">
-      <Header/>
-      <Companies/>
-      <Slider/>
-      <Testimonials/>
-      <Price/>
-      <Footer/>
+    <Header/>
+    <Companies/>
+    <Slider/>
+    <Inbox/>
+    <Testimonials/>
+    <Price/>
+    <Footer/>
   </div>
 </template>
 
@@ -18,15 +19,18 @@ import Slider from "@/components/main/Slider"
 import Testimonials from '@/components/main/Testimonials'
 import Price from "@/components/main/Price";
 import Footer from "@/components/main/Footer";
+import Inbox from "@/components/main/Inbox";
+
 export default {
   name: 'Home',
   components: {
+    Inbox,
     Footer,
     Price,
     Companies,
     Header,
     Slider,
-    Testimonials
+    Testimonials,
   }
 }
 </script>
