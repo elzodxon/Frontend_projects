@@ -159,4 +159,20 @@ a{
   }
 }
 
+@media only screen and (max-width: 550px) {
+  .main-wrapper{
+    h1{
+      font-size: 40px !important;
+      line-height: 45px !important;
+      margin-bottom: 20px;
+      width: 80%;
+    }
+    h4{
+      font-size: 17px;
+      width: 80%;
+      margin-bottom: 20px;
+    }
+  }
+}
+
 </style>
