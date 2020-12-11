@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container p-5">
+    <div class="container p-2">
       <div class="row d-flex align-items-center flex-column">
         <h2>Solution made for you</h2>
         <h3 class="text-center">These companies release their own versions of the operating <br> systems with minor changes, and yet always.</h3>
@@ -158,7 +158,9 @@ export default {
 <style lang="scss" scoped>
 
 /* Top styles */
-
+.slick_slide{
+  height: 170px;
+}
 .mybtn{
   padding: 20px;
   height: 55px;
@@ -240,8 +242,8 @@ export default {
 
 @media only screen and (max-width: 550px) {
   .swiper-wrapper{
-    margin-right: 95px;
-    margin-left: 50px;
+    margin-right: 102px;
+    margin-left: 102px;
   }
 }
 

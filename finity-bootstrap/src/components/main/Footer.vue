@@ -8,7 +8,7 @@
           <img src="/assets/imgs/Logodark.png" alt="">
           <h2 class="motto"> Your ulitmate email solution to grow <br> business and engaging with future
             customers and clients.</h2>
-          <router-link to="/question" class="ask-btn">Ask a question</router-link>
+          <router-link  to="/question" class="ask-btn mt-4 mb-4">Ask a question</router-link>
         </div>
 
         <ul class="col-lg-2 col-md-4 col-sm-2">
@@ -42,7 +42,7 @@
 
         <ul class="col-lg-2 col-md-4 col-sm-2">
           <li class="footer-top">Contacts</li>
-          <li class="footer-link">Feel free to get in touch with us via phone or send us a message.</li>
+          <li class="footer-link footer-message">Feel free to get in touch with us via phone or send us a message.</li>
           <li>
             <a class="brown" href="">+1-301-340-3946</a> <br>
             <a class="brown" href="">info@finity.com</a>
@@ -81,6 +81,16 @@ footer {
   line-height: 42px;
   letter-spacing: 0px;
   color: #E9F7FE !important;
+}
+
+.footer-message{
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px !important;
+  letter-spacing: 0px;
+  color: #E9F7FE !important;
+  width: 200px;
 }
 
 .footer-link a {

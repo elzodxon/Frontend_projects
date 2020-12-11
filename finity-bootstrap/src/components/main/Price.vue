@@ -24,8 +24,10 @@
     </div>
 
  <div class="row d-flex flex-column ">
+   <hr>
+
    <ul class="row-item">
-     <li>
+     <li class="plan-name">
        Starter
      </li>
      <li>
@@ -51,7 +53,7 @@
    </ul>
    <hr>
    <ul class="row-item">
-     <li>
+     <li class="plan-name">
        Standard
      </li>
      <li>
@@ -77,7 +79,7 @@
    </ul>
    <hr>
    <ul class="row-item">
-     <li>
+     <li class="plan-name">
        ProMember
      </li>
      <li>
@@ -135,7 +137,7 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
+  padding: 40px 0;
 }
 
 .row-item li {
@@ -171,6 +173,7 @@ export default {
 }
 
 button{
+  border: 2px solid #FFD166;
   background: #FFFFFF;
   border: none;
   outline: none;
@@ -233,5 +236,16 @@ button{
       flex-direction: column;
       align-items: center;
     }
+
+  .plan-name{
+    font-size: 45px !important;
+    font-style: normal;
+    font-weight: 700 !important;
+    line-height: 64px !important;
+    letter-spacing: -1px;
+    color: #1D293F !important;
+  }
+
+
 }
 </style>

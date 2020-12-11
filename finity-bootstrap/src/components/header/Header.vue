@@ -1,7 +1,6 @@
 <template>
   <div class="header">
-    <header >
-      <b-navbar toggleable="lg" type="light" style="display: flex; align-items: center; justify-content: space-between">
+      <b-navbar toggleable="lg" type="light">
         <b-navbar-brand href="#">
           <img src="assets/logo.png" alt="">
         </b-navbar-brand>
@@ -30,16 +29,17 @@
           </b-navbar-nav>
         </b-collapse>
       </b-navbar>
-    </header>
-    <main class="main">
-      <div class="main-wrapper">
-        <img style="display: none" class="img-fluid" src="/assets/App.png" alt="">
-        <h1>More than your regular email inbox</h1>
-        <h4>We’ve helped over 25,000 individuals and companies to grow their business successfully.</h4>
-        <router-link class="main-btn" to="/register">Start 14 days free trial</router-link>
-        <p>No credit card required</p>
-      </div>
-    </main>
+
+      <main class="main">
+        <div class="main-wrapper">
+          <img style="display: none" class="img-fluid" src="/assets/App.png" alt="">
+          <h1>More than your regular email inbox</h1>
+          <h4>We’ve helped over 25,000 individuals and companies to grow their business successfully.</h4>
+          <router-link class="main-btn" to="/register">Start 14 days free trial</router-link>
+          <p>No credit card required</p>
+        </div>
+      </main>
+
 
 
   </div>
