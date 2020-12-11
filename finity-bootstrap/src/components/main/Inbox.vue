@@ -5,7 +5,7 @@
         <img src="/assets/imgs/inbox.png" class="img-fluid" alt="">
       </div>
       <div class="col-lg-5 col-sm-12 col-md-6  d-flex justify-content-center flex-column offset-lg-1  content">
-       <div>
+       <div class="items">
          <h1>Work anywhere, with any device</h1>
          <p>These companies release their own versions of the operating systems with minor changes, and yet always with
            the same bottom line. </p>
@@ -21,7 +21,7 @@
   </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 
 .content h1{
   font-size: 48px;
@@ -54,6 +54,28 @@
   }
   .content p{
     margin-bottom: 18px;
+  }
+}
+
+
+@media screen and (max-width: 550px){
+
+  .items{
+    text-align: center;
+  }
+ .content h1{
+   font-size: 30px;
+   line-height: 35px;
+ }
+
+  .content p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #7C8087;
+    margin-bottom: 56px;
   }
 }
 </style>

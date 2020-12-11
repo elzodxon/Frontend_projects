@@ -200,6 +200,18 @@
     h2{
       font-size: 37px;
     }
+    h3{
+      font-size: 25px;
+    }
+
+  }
+}
+
+@media screen and (max-width: 550px){
+  .testimonial-text{
+    h2{
+      font-size: 25px;
+    }
   }
 }
 </style>

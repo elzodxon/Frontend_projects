@@ -193,6 +193,19 @@ button{
   border-radius: 0;
 }
 
+@media screen and (max-width: 550px){
+  .items{
+    h2{
+      font-size: 20px !important;
+      line-height: 25px !important;
+    }
+
+    button{
+      width: 140px;
+      height: 40px;
+    }
+  }
+}
 @media screen and (max-width: 768px){
  .row{
    flex-direction: column;
